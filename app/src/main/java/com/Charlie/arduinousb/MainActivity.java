@@ -1,4 +1,6 @@
-package com.hariharan.arduinousb;
+package com.Charlie.arduinousb;
+
+//Build Locaton : app/build/outputs/apk/debug
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -24,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends Activity {
-    public final String ACTION_USB_PERMISSION = "com.hariharan.arduinousb.USB_PERMISSION";
+    public final String ACTION_USB_PERMISSION = "com.Charlie.arduinousb.USB_PERMISSION";
     Button startButton, sendButton, clearButton, stopButton;
     TextView textView;
     EditText editText;

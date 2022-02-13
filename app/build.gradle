@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
-        applicationId "com.hariharan.arduinousb"
+        applicationId "com.Charlie.arduinousb"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
